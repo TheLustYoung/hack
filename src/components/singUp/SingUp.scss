@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    align-items: center;
+}
+
+.input__log{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 14px;
+    color: #B8B8B8;
+}
+
+.input__pass{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 14px;
+    color: #B8B8B8;
+    margin-top: 35px;
+}
+.input__log input{
+    width: 330px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px 2px #9c9c9c6e;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+.input__log input:active{
+    border: 1px solid #FF4F12;
+}
+
+.input__log input:focus{
+    border: 1px solid #FF4F12;
+}
+
+.input__pass input{
+    width: 330px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px 2px #9c9c9c6e;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+.input__pass input:active{
+    border: 1px solid #FF4F12;
+}
+
+.input__pass input:focus{
+    border: 1px solid #FF4F12;
+}
+
+.buttonLog {
+        border: none;
+        background-color:#FF4F12;
+        color: white;
+        width: 327px;
+        height: 54px;
+        border-radius: 10px;
+        box-shadow: 1px 2px 7px 2px #9c9c9c6e;
+        margin-top: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+.buttonLog:hover{
+    transform: scale(1.009);
+    transition: .2s;
+}
+
+.buttonSing {
+    border: 3px solid #FF4F12;
+    background-color:#ffffff;
+    color: rgb(56, 56, 56);
+    width: 327px;
+    height: 54px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px 2px #9c9c9c6e;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttonSing:hover{
+transform: scale(1.009);
+transition: .2s;
+}
